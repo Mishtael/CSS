@@ -1,0 +1,57 @@
+.box {
+    /* border: 2px solid black; */
+    background-color: rgba(104, 132, 234, 0.365);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+#name,
+#mail,
+#phone,
+#butt {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+#bottom1 {
+    text-align: center;
+}
+
+#top {
+    background-image: url('Images/MyComputer.webp');
+
+    padding-bottom: 20px;
+}
+
+#bottom {
+    background-image: url('Images/GamingPc.webp');
+    background-size: 100% 100%;
+    /* filter: grayscale(100%); */
+    /* filter: contrast(-10); */
+    padding-top: 30px;
+}
+
+#form {
+    margin: 0 auto;
+}
+
+.inbox {
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+    height: 100%;
+}
+
+img {
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.abc:hover {
+    transition: 2s;
+    transform: rotateY(180deg);
+    height: 100px;
+}
